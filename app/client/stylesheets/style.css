@@ -1,3 +1,40 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  font-family: 'Open Sans', serif;
+  color: black;
+  text-align: center;
+}
+
+.header-image {
+  background-image: url('/images/books-header.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+.navbar {
+  border-radius: 0px;
+  background-color: #3B709B;
+  border-color: #3B709B;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  font-size: 18px;
+}
+
+.well {
+  background-color: #6A8DD4;
+  border-color: #6A8DD4;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+}
+
+p {
+  color: white;
 }
